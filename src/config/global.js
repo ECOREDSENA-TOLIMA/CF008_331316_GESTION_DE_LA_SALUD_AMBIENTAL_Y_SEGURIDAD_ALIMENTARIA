@@ -98,35 +98,35 @@ export default {
           {
             numero: '3.1',
             titulo: 'Objetos de inspección',
-            hash: 't_1_1',
+            hash: 't_3_1',
           },
           {
             numero: '3.2',
             titulo: 'Modelo',
-            hash: 't_1_2',
+            hash: 't_3_2',
           },
           {
             numero: '3.3',
             titulo: 'Protocolos',
-            hash: 't_1_3',
+            hash: 't_3_3',
           },
           {
             numero: '3.4',
             titulo:
               'Guías e instrumentos para la inspección vigilancia y control sanitario',
-            hash: 't_1_4',
+            hash: 't_3_4',
           },
           {
             numero: '3.5',
             titulo:
               'Gestión de la salud ambiental a nivel nacional y territorial',
-            hash: 't_1_5',
+            hash: 't_3_5',
           },
           {
             numero: '3.6',
             titulo:
               'Escenarios de intersectorial nacionales territoriales para la gestión de la salud ambiental y seguridad sanitaria',
-            hash: 't_1_6',
+            hash: 't_3_6',
           },
         ],
       },
@@ -178,16 +178,52 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1.2 Normas generales sanitarias vigentes',
+      referencia:
+        'Ministerio de Salud y protección Social. Resolución 295 de 2023. Por la cual se modifican los artículos 3, 8, 11, 14, 16, y 18 de la Resolución 518 de 2015 en relación con la gestión de la salud pública, las responsabilidades de las entidades territoriales y de los ejecutores del Plan de Salud Pública de Intervenciones Colectivas y las condiciones para la ejecución.',
+      tipo: 'Documento legal',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=138339&dt=S',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1.4 Código de policía',
+      referencia:
+        'Congreso de la República. (2016). Ley 1801 del 29 de julio de 2016.',
+      tipo: 'Documento legal',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538',
+    },
+    {
+      tema: '1.5 Modelo de Fuerzas Motrices',
+      referencia:
+        'Escuela virtual (2017). Videoconferencia final DSA El modelo de fuerzas motrices. [Video]. You tube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Xk-A-I9Jbsw',
+    },
+    // {
+    //   tema: '3.2 Modelo',
+    //   referencia:
+    //     'Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA). (2015). Manual de Inspección, Vigilancia y Control Sanitario de alimentos y bebidas basado en riesgo para las Entidades Territoriales de Salud.',
+    //   tipo: 'Documento legal',
+    //   link:
+    //     'https://www.invima.gov.co/documents/20143/1402493/28.+Manual+de+IVC+de+Alimentos+y+Bebidas+basado+en+el+riesgo+para+Las+ETS.pdf',
+    // },
+    {
+      tema: '3.2 Modelo',
+      referencia:
+        'Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA). (2018). Concepto 2038826. ',
+      tipo: 'Documento legal',
+      link:
+        'https://normograma.invima.gov.co/normograma/docs/pdf/concepto_invima_2038826_2018.pdf',
+    },
+    {
+      tema:
+        '3.4 Guías e instrumentos para la inspección vigilancia y control sanitario',
+      referencia:
+        'Secretaría Distrital de Salud de Bogotá. (2016). Lineamiento para el uso de las actas de visita a establecimientos abiertos al público.',
+      tipo: 'Documento legal',
+      link:
+        'http://www.saludcapital.gov.co/Lineamientos/2016-2020/25_SDS_IVC_LN_02_Lineamiento_Uso_Actas_Visita.pdf',
     },
   ],
   glosario: [
@@ -264,8 +300,144 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Constitución Política de Colombia [Const]. Artículos: 49, 79, 80, 208, 286, 189 numerales: 15 y 16. 7 de julio de 1991 (Colombia).  ',
       link: '',
+    },
+    {
+      referencia:
+        'Consejo Nacional de Política Económica y Social y Departamento Nacional de Planeación. (2005). CONPES 3375. Política nacional de sanidad agropecuaria e inocuidad de alimentos para el sistema de medidas sanitarias y fitosanitarias. ',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3375.pdf',
+    },
+    {
+      referencia:
+        'Consejo Nacional de Política Económica y Social y Departamento Nacional de Planeación. (2019). CONPES 3957. Política nacional de laboratorios: Prioridades para mejorar el cumplimiento de estándares de calidad. Colombia: ',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3957.pdf',
+    },
+    {
+      referencia:
+        'Consejo Nacional de Política Económica y Social y Departamento Nacional de Planeación. (2007). CONPES 113. Política Nacional de Seguridad Alimentaria y Nutricional (PSAN). ',
+      link: 'https://colaboracion.dnp.gov.co/CDT/Conpes/Social/113.pdf',
+    },
+    {
+      referencia:
+        'Consejo Nacional de Política Económica y Social y Departamento Nacional de Planeación. (2007). CONPES 3468. Política nacional de sanidad e inocuidad para la cadena avícola. ',
+      link:
+        'https://www.ica.gov.co/getattachment/05335af5-1c3e-4d2b-92cb-0ca226a8a1d0/2942.aspx',
+    },
+    {
+      referencia:
+        'Consejo Nacional de Política Económica y Social y Departamento Nacional de Planeación. (2007). CONPES 3458. Política nacional de sanidad e inocuidad para la cadena porcícola. ',
+      link:
+        'https://www.ica.gov.co/getattachment/140a9da0-3f57-426a-840e-5c5b4de1f093/2845.aspx',
+    },
+    {
+      referencia:
+        'Consejo Nacional de Política Económica y Social y Departamento Nacional de Planeación. (2008). CONPES 3514. Política nacional fitosanitaria y de inocuidad para las cadenas de frutas y de otros vegetales. ',
+      link:
+        'https://www.ica.gov.co/getattachment/b12bfeda-1f37-4266-9c0c-e5c9e96be7bf/2008CN3514.aspx',
+    },
+    {
+      referencia:
+        'Consejo Nacional de Política Económica y Social. República de Colombia. Departamento Nacional de Planeación (2008). CONPES 3550 de 2008. Lineamientos para la formulación de la política integral de salud ambiental con énfasis en los componentes de calidad de aire, calidad de agua y seguridad química. ',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3550.pdf',
+    },
+    {
+      referencia:
+        'Consejo Nacional de Política Económica y Social y Departamento Nacional de Planeación. (2010). CONPES 3676. Consolidación de la política sanitaria y de inocuidad para las cadenas láctea y cárnica. ',
+      link:
+        'https://www.ica.gov.co/ getattachment/3b31038a-72ba-40f9-a34d-cecd89015890/2010cp3676.aspx',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA). (2014). Guía Modelo de Inspección, Vigilancia y Control basado en Riesgos – IVC SOA. ',
+      link:
+        'http://www.saludcapital.gov.co/CTDLab/Publicaciones/2020/Guia_IVC_basado_en_Riesgos.pdf',
+    },
+    {
+      referencia:
+        'Ley 9 de 1979. Por la cual se dictan Medidas Sanitarias. 16 de julio de 1979. Diario Oficial No. 35308. ',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%200009%20DE%201979.pdf',
+    },
+    {
+      referencia:
+        'Ley 489 de 1998. Por la cual se dictan normas sobre la organización y funcionamiento de las entidades del orden nacional, se expiden las disposiciones, principios y reglas generales para el ejercicio de las atribuciones previstas en los numerales 15 y 16 del artículo 189 de la Constitución Política y se dictan otras disposiciones. Diciembre 29 1998. ',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=186',
+    },
+    {
+      referencia:
+        'Ley número 1122 de 2007. Por la cual se hacen algunas modificaciones en el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones. Enero 9 2007. ',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/ley-1122-de-2007.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de la Protección Social. (2009). Resolución número 0082 de 2009. Por medio de la cual se adoptan unos formularios para la práctica de visitas de inspección sanitaria a los sistemas de suministro de agua para consumo humano. ',
+      link:
+        'https://www.ins.gov.co/Normatividad/Resoluciones/RESOLUCI%C3%93N%20082%20DE%202009.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de la Protección Social. Ministerio de Educación Nacional. Ministerio de Ambiente, Vivienda y Desarrollo Territorial. Agencia Presidencial para la Acción Social y la Cooperación Internacional. Servicio Nacional de Aprendizaje SENA. Organización Panamericana de la Salud. (2007). Estrategia de entornos saludables. Plan de acción intersectorial. ',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SA/plan-de-accion-intersectorial.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (s.f.). Acta general de inspección, vigilancia y control sanitario. ',
+      link:
+        'https://historico.santander.gov.co/intra/index.php/antico/viewdownload/530-formatos/10073-acta-general-de-inspeccion-vigilancia-y-control-sanitario',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2015). Resolución 518. Artículo 6. ',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-0518-de-2015.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social (2016). Protocolo Autocontrol persona prestadora del servicio público de acueducto y los procesos de supervisión por parte de la Autoridad Sanitaria. ',
+      link:
+        'https://www.minvivienda.gov.co/sites/default/files/2020-08/protocolo-autocontrol-persona-prestadora_msps-mvct.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y de Protección Social. (2013). Resolución 1220 del 23 de abril de 2013. Por el cual se establece el modelo de inspección, vigilancia y control sanitario para los productos de uso y consumo humano. ',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%201229%20de%202013.PDF',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y de la Protección Social. (2020). Modelo operativo de Inspección, vigilancia y Control sanitario para salud Ambiental. Subdirección de Salud Ambiental Versión 1.0. ',
+      link: 'https://www.minsalud.gov.co/RID/modelo-operativo-ivc-t.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y de la Protección Social. Manual de inspección, vigilancia y control sanitario de Alimentos y bebidas basado en riesgo para las entidades Territoriales de salud. ',
+      link:
+        'https://www.invima.gov.co/documents/20143/1402493/28.+Manual+de+IVC+de+Alimentos+y+Bebidas+basado+en+el+riesgo+para+Las+ETS.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. Dirección de promoción y prevención Subdirección de salud ambiental. (2008). Lineamientos sectoriales construcción política integral - salud ambiental para todos. ',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VP/RBC/lineamientos-sectoriales-construccion-politica-integral-salud-ambiental-para-todos-.pdf',
+    },
+    {
+      referencia:
+        'Secretaria Distrital de Planeación. Alcaldía Distrital de Bogotá. (2017). Guía para la formulación e implementación de políticas públicas del Distrito. ',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjurMantenimiento/adminverblobawa?tabla=T_NORMA_ARCHIVO&p_NORMFIL_ID=10895&f_NORMFIL_FILE=X&inputfileext=NORMFIL_FILENAME',
+    },
+    {
+      referencia:
+        'Unidad Nacional para la Gestión de Riesgos y Desastres- UNGRD. (s.f.). Compilación de normas para la atención de riesgos y desastres en Colombia. ',
+      link: 'https://portal.gestiondelriesgo.gov.co/Paginas/Normatividad.aspx',
     },
   ],
   creditos: [
