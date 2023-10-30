@@ -2,8 +2,8 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 50%
+    right: 20%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
@@ -17,3 +17,68 @@
 
   100%
     transform: translateY(0px)
+    
+.tarjeta.color-primario-c
+  background-color: $color-primario !important
+.tarjeta.color-secundario-c
+  background-color: $color-secundario !important
+.tarjeta.color-acento-contenido-c
+  background-color: $color-acento-contenido !important
+
+.tarjeta.color-primario,.cajon.color-primario
+  background-color: lighten($color-primario, 13%) !important
+
+.cajon.color-secundario
+  background-color: lighten($color-secundario, 8%) !important
+
+.tarjeta.color-acento-contenido
+  background-color: lighten($color-acento-contenido, 12%) !important
+  
+.tabla-b
+  tr.cabecera-a
+    background-color: $color-acento-contenido
+  .cabecera-b
+    background-color: lighten($color-secundario, 10%) !important
+
+
+@media only screen and (width: 768px) 
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+  .ipad-b
+    .slyder-b__slyde
+      .row
+        margin-right: 5rem !important
+        width: 80%
+@media only screen and (width: 390px) 
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+  .ipad-b
+    .slyder-b__slyde
+      .row
+        margin-right: 5rem !important
+        width: 80%
+
+.lista-ol--cuadro__vineta
+  span
+    color: $black
+
+
+.acordion__activo
+  background-color: $color-adicional-1
+
+.acordion__accion__btn--a,.acordion__accion__btn--b,.slyder__btn,.slyder-a__btn--atrs,.slyder-a__btn--sigt
+  background-color: $color-acento-botones
+  i
+    color: $white
+
+.lista-ol--cuadro__vineta.custom
+  border-radius: 2em
+  padding: 1em
+  font-weight: bold
+@media (min-width: 992px)
+  .w-lg-50
+    width: 50%
+  .tarjeta-avatar-b .tarjeta.color-primario--borde
+    padding-left: 4%

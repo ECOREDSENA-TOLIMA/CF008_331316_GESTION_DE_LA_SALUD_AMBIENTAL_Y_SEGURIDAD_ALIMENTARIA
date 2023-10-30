@@ -4,17 +4,17 @@ export default {
       'Normativa vigente para la gestión de la salud ambiental',
     descripcionCurso:
       'En este componente formativo se abordará el tema de gestión de salud ambiental el cual es fundamental en el contexto de la salud pública, ya que articula acciones y disposiciones normativas que permiten monitorear las condiciones ambientales, los ecosistemas y el cambio climático, además de evaluar el impacto que dichos fenómenos traen en la salud de la población. ',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
+      // {
+      //   clases: ['banner-principal-decorativo-2'],
+      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      // },
     ],
   },
   menuPrincipal: {

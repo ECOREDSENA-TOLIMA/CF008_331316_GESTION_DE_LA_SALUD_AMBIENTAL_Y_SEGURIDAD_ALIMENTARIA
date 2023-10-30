@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Modelo de vigilancia y control sanitario para la gestión de los riesgos asociados al uso y consumo de bienes y servicios
 
 </template>
 
