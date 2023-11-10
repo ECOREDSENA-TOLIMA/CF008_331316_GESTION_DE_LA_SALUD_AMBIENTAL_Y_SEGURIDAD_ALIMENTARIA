@@ -21,46 +21,72 @@
 
     p.mb-4(data-aos="fade-down") Según el artículo 4, Resolución 1229 de 2013, los sujetos de inspección y control sanitario pueden definirse de la siguiente manera: 
 
-    .titulo-segundo.color-primario.mb-4(data-aos="fade-right")
-      h3 Los sujetos de inspección, vigilancia y control sanitario
 
-    p.mb-4(data-aos="fade-down") Son las personas naturales y jurídicas, organizaciones e instituciones obligadas a proteger la salud pública y garantizar la seguridad sanitaria a través de su desempeño, ya sea en condición de usuario / consumidor; proveedor / productor o autoridad sanitaria: 
+    .row.justify-content-center.mb-5(data-aos="fade-down-right")
+      .col-12.col-lg-10
 
-    .row.mb-5(data-aos="fade-down")
-      .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
-        .tarjeta-numerada.color-primario.p-5
-          .tarjeta-numerada__numero
-            .h2 1
-          p.mb-0.text-center Autoridades sanitarias.
-      .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
-        .tarjeta-numerada.color-secundario.p-5
-          .tarjeta-numerada__numero
-            .h2 2
-          p.mb-0.text-center Autoridad sanitaria competente en inspección, vigilancia y control sanitario.
-      .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
-        .tarjeta-numerada.color-acento-contenido.p-5
-          .tarjeta-numerada__numero
-            .h2 3
-          p.mb-0.text-center Proveedor / productor.
-      .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
-        .tarjeta-numerada.color-acento-botones.p-5
-          .tarjeta-numerada__numero
-            .h2 4
-          p.mb-0.text-center Usuario / consumidor. 
+        .mb-3(data-aos="fade-right")
+          h4 ● Los sujetos de inspección, vigilancia y control sanitario
 
-    .tarjeta.color-acento-contenido.p-3.mb-5(data-aos="fade-down-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-2
-          img(src="@/assets/curso/temas/tema2/ico-web.png")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Resolución 1229 de 2013
-              p En el siguiente documento, Resolución 1229 de 2013, se relacionan los aspectos técnicos para el modelo de inspección, vigilancia y control sanitario. 
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(href="https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%201229%20de%202013.PDF" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+        p.mb-4(data-aos="fade-down") Son las personas naturales y jurídicas, organizaciones e instituciones obligadas a proteger la salud pública y garantizar la seguridad sanitaria a través de su desempeño, ya sea en condición de usuario / consumidor; proveedor / productor o autoridad sanitaria: 
+
+        .row.mb-5(data-aos="fade-down")
+          .col-md-6.col-lg.tarjeta--tabla.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/tema3/tema3-ico1.svg' alt='AvatarTop')
+            p 1) Autoridades sanitarias.
+          .col-md-6.col-lg.tarjeta--tabla.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/tema3/tema3-ico2.svg' alt='AvatarTop')
+            p 2) Autoridad sanitaria competente en inspección, vigilancia y control sanitario.
+          .col-md-6.col-lg.tarjeta--tabla.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/tema3/tema3-ico3.svg' alt='AvatarTop')
+            p 3) Proveedor / productor.
+          .col-md-6.col-lg.tarjeta--tabla.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/tema3/tema3-ico4.svg' alt='AvatarTop')
+            p 4) Usuario / consumidor.
+        
+        //- .row.mb-5(data-aos="fade-down")
+        //-   .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
+        //-     .tarjeta-numerada.color-primario.p-5
+        //-       .tarjeta-numerada__numero
+        //-         .h2 1
+        //-       p.mb-0.text-center Autoridades sanitarias.
+        //-   .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
+        //-     .tarjeta-numerada.color-secundario.p-5
+        //-       .tarjeta-numerada__numero
+        //-         .h2 2
+        //-       p.mb-0.text-center Autoridad sanitaria competente en inspección, vigilancia y control sanitario.
+        //-   .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
+        //-     .tarjeta-numerada.color-acento-contenido.p-5
+        //-       .tarjeta-numerada__numero
+        //-         .h2 3
+        //-       p.mb-0.text-center Proveedor / productor.
+        //-   .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
+        //-     .tarjeta-numerada.color-acento-botones.p-5
+        //-       .tarjeta-numerada__numero
+        //-         .h2 4
+        //-       p.mb-0.text-center Usuario / consumidor. 
+
+        .tarjeta.color-acento-contenido.p-3(data-aos="fade-down-right")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema2/ico-web.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Resolución 1229 de 2013
+                  p En el siguiente documento, Resolución 1229 de 2013, se relacionan los aspectos técnicos para el modelo de inspección, vigilancia y control sanitario. 
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%201229%20de%202013.PDF" target="_blank")
+                    span Enlace web
+                    i.fas.fa-file-code
 
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -77,53 +103,53 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Modelo
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down-left")
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/tema3-3.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 El modelo operativo de inspección, vigilancia y control sanitario en salud ambiental, se basa en el principio de previsión y centra el desarrollo de las acciones con un enfoque preventivo con el objetivo de contar con la capacidad anticipatoria para eliminar, reducir o mitigar riesgos antes de producirse un daño a la salud pública, generados por condiciones sanitarias asociados a la producción de bienes y servicios. 
-          br
-          br
-          | Bajo este enfoque preventivista, se deben plantear las acciones de promoción de la salud, mejores prácticas y el fomento de una cultura sanitaria en la ciudadanía. Así mismo, incluye procesos de acompañamiento y auditoría para asegurar el control previo a bienes y servicios, el desarrollo de acciones que deban implementarse como cautelares y el control de la gestión del modelo.
+    .row.justify-content-around.align-items-center.mb-5(data-aos="fade-down-left")
+      .col-lg-7.col-12.col-md-8
+        p El modelo operativo de inspección, vigilancia y control sanitario en salud ambiental, se basa en el principio de previsión y centra el desarrollo de las acciones con un enfoque preventivo con el objetivo de contar con la capacidad anticipatoria para eliminar, reducir o mitigar riesgos antes de producirse un daño a la salud pública, generados por condiciones sanitarias asociados a la producción de bienes y servicios. Bajo este enfoque preventivista, se deben plantear las acciones de promoción de la salud, mejores prácticas y el fomento de una cultura sanitaria en la ciudadanía. Así mismo, incluye procesos de acompañamiento y auditoría para asegurar el control previo a bienes y servicios, el desarrollo de acciones que deban implementarse como cautelares y el control de la gestión del modelo.
+      .col-lg-5.col-12.col-md-4
+        img(src="@/assets/curso/temas/tema3/tema3-3.png")
     
-    .tarjeta.color-acento-contenido.p-3.mb-5(data-aos="fade-down-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-2
-          img(src="@/assets/curso/temas/tema1/doc3.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Modelo Operativo de Inspección, Vigilancia y Control Sanitario
-              p En el documento que se propone a continuación se encuentra el “Modelo Operativo de Inspección, Vigilancia y Control Sanitario para Salud Ambiental. Ministerio de Salud y Protección Social”, para que se realice la revisión total del mencionado modelo operativo. 
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(href="https://www.minsalud.gov.co/RID/modelo-operativo-ivc-t.pdf" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+    .row.justify-content-center.mb-5(data-aos="fade-down-right")
+      .col-12.col-lg-10
+        .tarjeta.color-acento-contenido.p-3(data-aos="fade-down-right")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema1/doc3.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Modelo Operativo de Inspección, Vigilancia y Control Sanitario
+                  p En el documento que se propone a continuación se encuentra el “Modelo Operativo de Inspección, Vigilancia y Control Sanitario para Salud Ambiental. Ministerio de Salud y Protección Social”, para que se realice la revisión total del mencionado modelo operativo. 
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.minsalud.gov.co/RID/modelo-operativo-ivc-t.pdf" target="_blank")
+                    span Enlace web
+                    i.fas.fa-file-code
 
-    .titulo-segundo.color-primario.mb-4(data-aos="fade-right")
-      h3 Para la inspección, vigilancia y control de alimentos
+    .row.justify-content-around.align-items-center.mb-5(data-aos="fade-down-left")
+      .col-lg-5.col-12.col-md-4
+        img(src="@/assets/curso/temas/tema3/tema3-4.png")
+      .col-lg-7.col-12.col-md-8
+        .row.align-items-center.mb-4(data-aos="fade-down-right")
+          .d-flex.titulo-h3
+            img(src='@/assets/curso/temas/icono.svg', style="width: 30px", alt='')
+            h3.mb-0.ms-3 Para la inspección, vigilancia y control de alimentos
+        p Esta inspección sanitaria se basa en identificar aquellas Enfermedades Transmitidas por los Alimentos (ETA) en los establecimientos, sin dejar de lado los alimentos que cuentan con infracciones o incumplimientos de la normatividad sanitaria vigente, en las etapas y peligros de mayor riesgo. Algunos factores de riesgo de ETA son comunes a muchos países o a ciertos tipos de alimentos y procesos de elaboración, mientras que otros son únicos según el origen, la naturaleza o los métodos de manipulación o elaboración relativos a ciertos productos.
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down-left")
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/tema3-4.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Esta inspección sanitaria se basa en identificar aquellas Enfermedades Transmitidas por los Alimentos (ETA) en los establecimientos, sin dejar de lado los alimentos que cuentan con infracciones o incumplimientos de la normatividad sanitaria vigente, en las etapas y peligros de mayor riesgo. Algunos factores de riesgo de ETA son comunes a muchos países o a ciertos tipos de alimentos y procesos de elaboración, mientras que otros son únicos según el origen, la naturaleza o los métodos de manipulación o elaboración relativos a ciertos productos.
-
-    .tarjeta.color-acento-contenido.p-3.mb-5(data-aos="fade-down-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-2
-          img(src="@/assets/curso/temas/tema1/doc3.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Inocuidad de los alimentos
-              p Para la inocuidad de alimentos, se cuenta con el Modelo de Inspección, Vigilancia y Control Sanitario, el cual tiene en cuenta las disposiciones de la Resolución 1229 de 2013. Se puede consultar a continuación la totalidad del modelo.
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(href="https://www.invima.gov.co/documents/20143/1402493/28.+Manual+de+IVC+de+Alimentos+y+Bebidas+basado+en+el+riesgo+para+Las+ETS.pdf" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+    .row.justify-content-center.mb-5(data-aos="fade-down-right")
+      .col-12.col-lg-10
+        .tarjeta.color-acento-contenido.p-3(data-aos="fade-down-right")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema1/doc3.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Inocuidad de los alimentos
+                  p Para la inocuidad de alimentos, se cuenta con el Modelo de Inspección, Vigilancia y Control Sanitario, el cual tiene en cuenta las disposiciones de la Resolución 1229 de 2013. Se puede consultar a continuación la totalidad del modelo.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.invima.gov.co/documents/20143/1402493/28.+Manual+de+IVC+de+Alimentos+y+Bebidas+basado+en+el+riesgo+para+Las+ETS.pdf" target="_blank")
+                    span Enlace web
+                    i.fas.fa-file-code
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-md-7.mb-2.mb-md-0
@@ -131,19 +157,21 @@
       .col-md-5
         img(src="@/assets/curso/temas/tema3/tema3-5.png")
 
-    .tarjeta.color-acento-contenido.p-3.mb-5(data-aos="fade-down-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-2
-          img(src="@/assets/curso/temas/tema1/doc3.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Lineamientos sectoriales construcción de la Política Integral de salud ambiental para todos
-              p Se debe leer con atención el documento “Lineamientos sectoriales construcción de la Política Integral de salud ambiental para todos” anteriormente mencionado.
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VP/RBC/lineamientos-sectoriales-construccion-politica-integral-salud-ambiental-para-todos-.pdf" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+    .row.justify-content-center.mb-5(data-aos="fade-down-right")
+      .col-12.col-lg-10
+        .tarjeta.color-acento-contenido.p-3(data-aos="fade-down-right")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema1/doc3.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Lineamientos sectoriales construcción de la Política Integral de salud ambiental para todos
+                  p Se debe leer con atención el documento “Lineamientos sectoriales construcción de la Política Integral de salud ambiental para todos” anteriormente mencionado.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VP/RBC/lineamientos-sectoriales-construccion-politica-integral-salud-ambiental-para-todos-.pdf" target="_blank")
+                    span Enlace web
+                    i.fas.fa-file-code
 
     .cajon.color-secundario.p-4.mb-4(data-aos="fade-down-left")
       p.mb-0 No se debe olvidar, que el Plan Decenal de Salud Pública 2022-2031, incluyó en sus metas lo relacionado con la calidad del aire pues es el componente que más genera enfermedades en la población, al igual que la calidad del agua para consumo humano, que también tiene un gran peso a nivel poblacional, de ahí la necesidad de trabajar políticas articuladas (más limpias para que se tenga control en las emisiones generadas por fuentes fijas y móviles) y no limitarse a la atención de los casos clínicos.
@@ -184,16 +212,13 @@
 
     p.mb-4(data-aos="fade-down") Entre las guías e instrumentos utilizados por la autoridad sanitaria para realizar las acciones de inspección, vigilancia y control sanitario a los objetos de inspección, vigilancia y control de interés para salud ambiental se encuentra el acta. En el siguiente recurso se podrá conocer la definición de actas y sus tipos:
 
-    .titulo-segundo.color-primario.mb-4(data-aos="fade-right")
-      h3 ¿Qué es un acta?
+    h4.color-boton(data-aos="fade-right") ¿Qué es un acta?
     p.mb-4(data-aos="fade-down") Instrumento que permite consolidar la información frente a las acciones de inspección, vigilancia y control sanitario, en concordancia con las normas vigentes, dicha acta se diligencia en el momento de efectuar la visita sanitaria.
 
-    .titulo-segundo.color-primario.mb-4(data-aos="fade-right")
-      h3 Acta general de inspección, vigilancia y control sanitario
+    h4.color-boton(data-aos="fade-right") Acta general de inspección, vigilancia y control sanitario
     p.mb-4(data-aos="fade-down") Fundamentada en el enfoque de riesgo y la conforman los aspectos generales definidos por la #[b Ley 09 de 1979]. Este instrumento debe ser utilizado para realizar la inspección y vigilancia sanitaria a los objetos de IVC de interés para salud ambiental los cuales no cuenten con normatividad específica para realizar la vigilancia sanitaria, como por ejemplo viviendas (atención de quejas o eventos), papelerías, misceláneas, entre otros.  
       
-    .titulo-segundo.color-primario.mb-4(data-aos="fade-right")
-      h3 Actas específicas para la inspección y vigilancia sanitaria
+    h4.color-boton(data-aos="fade-right") Actas específicas para la inspección y vigilancia sanitaria
     p.mb-4(data-aos="fade-down") Se encuentran centradas en la actividad económica principal del objeto de IVC sanitario y la normatividad sanitaria específica aplicable a estos objetos de IVC sanitario. Durante la visita de inspección se aplicarán actas específicas con enfoque de riesgo para aquellos objetos de IVC sanitario que cuenten con normatividad propia para la inspección y vigilancia de aspectos particulares.
 
     .tarjeta.color-acento-contenido.p-3.mb-5(data-aos="fade-down-right")
@@ -224,12 +249,12 @@
 
     p.mb-4(data-aos="fade-down") En el marco de la gestión de la salud ambiental a nivel nacional, aparte de avanzar con reglamentar aspectos ambientales y que para tal efecto han emitido normas, políticas sectoriales, políticas intersectoriales, planes, programas y proyectos, entre otros; también las entidades públicas vienen trabajando en la elaboración de un sistemas de información  para salud ambiental, como es la #[b Política Integral de Salud Ambiental (PISA)], si bien es cierto que actualmente existen diferentes sistemas de información por sector, también es cierto que ninguno de ellos se articula, ni están teniendo en cuenta los aspectos ambientales de forma coordinada para poder establecer una completa coordinación. 
 
-    p.text-center.mb-5(data-aos="fade-down") #[b Los sistemas de información que actualmente están en operación son:]
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-md-4.mb-2.mb-md-0
         img(src="@/assets/curso/temas/tema3/tema3-7.png")
       .col-md-8
+        p.text-start.mb-2(data-aos="fade-down") #[span Los sistemas de información que actualmente están en operación son:]
         LineaTiempoD.color-acento-botones.mb-5(data-aos="fade-down-right")
           div(numero="1" titulo="Sistema de Vigilancia de la calidad del agua potable (SIVICAP)") 
             p Administrado por el Instituto Nacional de Salud. Este sistema es cargado con los resultados de las acciones de Inspección, Vigilancia y Control del agua potable que realizan las Entidades Territoriales de Salud en los acueductos ubicados tanto en zona urbana como rural.
@@ -240,8 +265,10 @@
           div(numero="4" titulo="El SUISA (Sistema Unificado de Información en Salud Ambiental)") 
             p Definido como un sistema de gestión del conocimiento, que recoge la información que producen los sectores para el análisis de los determinantes sociales y ambientales y sus efectos sobre la salud de la población, que apoya la toma de decisiones intersectoriales, aporta la gestión intersectorial y el conocimiento y comunicación del riesgo. trabaja temática en salud ambiental como agua, aire, clima, químicos y seguridad vial, entre otros.
 
-    .cajon.color-secundario.p-4.mb-4(data-aos="fade-down-left")
-      p.mb-0 También a los establecimientos objeto de inspección, vigilancia y control, la autoridad sanitaria les solicita que tengan desarrollado e implementado el plan de saneamiento. Este plan lo conforma: el Programa de limpieza y desinfección, el Programa de Residuos sólidos, el Manejo Integral de Plagas y el Programa de agua para consumo humano.
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+      .col-12.col-lg-10
+        .cajon.color-secundario.p-4(data-aos="fade-down-left")
+          p.mb-0 También a los establecimientos objeto de inspección, vigilancia y control, la autoridad sanitaria les solicita que tengan desarrollado e implementado el plan de saneamiento. Este plan lo conforma: el Programa de limpieza y desinfección, el Programa de Residuos sólidos, el Manejo Integral de Plagas y el Programa de agua para consumo humano.
 
     Separador
     #t_3_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")

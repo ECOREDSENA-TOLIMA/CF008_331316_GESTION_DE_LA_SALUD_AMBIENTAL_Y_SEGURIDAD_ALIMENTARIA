@@ -25,26 +25,28 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La #[b Ley 9 de 1979] define que, para la protección del medio ambiente, se deben seguir unas normas generales que servirán de base a las disposiciones necesarias para preservar, restaurar y mejorar las condiciones sanitarias relacionadas con la salud humana, además dispone los procedimientos y las medidas que se deben adoptar para la regulación, legalización y control de las descargas de los residuos y materiales que afectan o pueden afectar las condiciones sanitarias del ambiente.
+        p.mb-0 La #[b Ley 9 de 1979], define que, para la protección del medio ambiente, se deben seguir unas normas generales que servirán de base a las disposiciones necesarias para preservar, restaurar y mejorar las condiciones sanitarias relacionadas con la salud humana, además dispone los procedimientos y las medidas que se deben adoptar para la regulación, legalización y control de las descargas de los residuos y materiales que afectan o pueden afectar las condiciones sanitarias del ambiente.
 
     p.mb-5(data-aos="fade-down") Posteriormente, en el año #[b 1991] se promulga la #[b Constitución Política Nacional de Colombia], que estableció algunas disposiciones las cuales son tenidas en cuenta por las reglamentaciones de los aspectos ambientales. Algunos de los artículos dispuestos en el momento de reglamentar aspectos ambientales son:
 
-    .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-down-right")
+    .BGIMG01.mb-5.p-4(data-aos="fade-down-right")
       SlyderB.mb-5(:datos="datosSlyder")
 
-    .tarjeta.color-secundario.row.justify-content-center.align-items-center.p-4.mb-5(data-aos="fade-down")
-      .col-10.col-md-3 
-        img(src='@/assets/curso/temas/tema1/tema1-7.svg', alt='')
-      .col-12.col-md-7.col-lg-6
-        p.mb-0 Es importante recordar que el marco de la Rama Ejecutiva está conformado por diferentes ministerios, los cuales han tenido competencia directa para reglamentar los aspectos ambientales, entre ellos se encuentra: #[b el Ministerio de Salud y Protección Social y el Ministerio de Ambiente y Desarrollo Sostenible.]
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+      .col-12.col-md-10.col-lg-8
+        .cajon.tarjeta--azul.row.p-4
+          .col-10.col-md-3.col-lg-2 
+            img(src='@/assets/curso/temas/tema1/tema1-7.svg', alt='')
+          .col-12.col-md
+            p.mb-0 Es importante recordar que el marco de la Rama Ejecutiva está conformado por diferentes ministerios, los cuales han tenido competencia directa para reglamentar los aspectos ambientales, entre ellos se encuentra: #[b el Ministerio de Salud y Protección Social y el Ministerio de Ambiente y Desarrollo Sostenible.]
 
     p.mb-4(data-aos="fade-down") Ahora bien, los elementos de política ambiental se encuentran consagrados en la Ley 99 de 1993, por la cual se crea el Ministerio de Ambiente y el Sistema Nacional Ambiental, y establece las competencias a las corporaciones autónomas, los cuales son entes descentralizados claves para la gestión en las regiones y como antecedente importante para la formulación de lineamientos en salud y ambiente. 
     .cajon.color-primario.p-4.mb-4(data-aos="fade-down-left")
       p.mb-0 Es de agregar que cada sector cuenta con su política establecida. Es así que, en el caso de salud ambiental, donde tienen competencias varios sectores con el fin de orientar la gestión para el mejoramiento de la salud ambiental en el territorio urbano y rural, se hace necesario el trabajo articulado para la administración, y la construcción de espacios de coordinación, investigación y acción participativa, en las diferentes líneas de intervención que permitan una alta calidad de vida y de salud para todas las personas.
     
-    p.mb-4.text-center(data-aos="fade-down") #[b En el marco de la gestión de salud ambiental en Colombia, se han emitidos normas, políticas y CONPES los cuales se enumeran en el siguiente material:]
+    p.mb-4(data-aos="fade-down") #[span En el marco de la gestión de salud ambiental en Colombia, se han emitidos normas, políticas y CONPES los cuales se enumeran en el siguiente material:]
 
-    .tarjeta.color-secundario.p-4.mb-5(data-aos="fade-down-left")
+    .BGIMG02.p-4.mb-5(data-aos="fade-down-left")
       h4.mb-3.text-center(style="color: #755952") CONPES
       p.mb-0.text-center #[b Consejo Nacional de Policia Económica y Social]
       p.text-center #[b República de Colombia]
@@ -137,38 +139,38 @@
               span #[b CONPES 3919 de 2018.] Política Nacional de edificaciones sostenibles.
       
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
-      .col-12.col-md-5.col-lg-4
+      .col-12.col-md-4.col-lg-3
         img(src='@/assets/curso/temas/tema1/tema1-9.png', alt='')
-      .col-12.col-md-7.col-lg-8
+      .col-12.col-md-8.col-lg-9
         p La relación entre salud y ambiente es una de las preocupaciones más significativas. Por ello el sector salud, tiene el deber de contribuir en la protección y el bienestar de las personas que propendan en el desarrollo humano sostenible.
         .cajon.color-secundario.p-4
           p Para ello este sector debe articular acciones con otros semejantes (ambiente, trabajo, agricultura, educación, comercio, servicios públicos, agropecuario, industrial, entre otros), que conlleven a conocer, monitorear y contrarrestar las causas del deterioro ambiental. La salud de las personas depende entre otras causas de las condiciones ambientales y la experiencia, ello quiere decir que la salud no es un resultado único de las acciones realizadas por el sector salud, sino que surge como resultado de los compromisos que asumen las personas, las comunidades los gobiernos y la participación social.
 
-    p.text-center.mb-5(data-aos="fade-down") #[b A continuación, podrá consultar los principales factores del medio ambiente que pueden afectar la salud humana:]
+    p.mb-5(data-aos="fade-down") #[span A continuación, podrá consultar los principales factores del medio ambiente que pueden afectar la salud humana:]
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right")
-      .col-lg-9.col-md-10.col-12
+      .col-lg-10.col-md-11.col-12
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img.p-md-3(style="place-content: space-evenly;")
             img(src='@/assets/curso/temas/tema1/tema1-10.svg' class="w-lg-50" alt='')
           .tarjeta.color-primario--borde
             .p-4
               p.mb-0 Según la Organización Mundial de Salud se estima que la carga global en salud (morbilidad) y el número de defunciones atribuidas a las condiciones del ambiente es del 24 % y el 23 %, respectivamente. 
-      .col-lg-9.col-md-10.col-12
+      .col-lg-10.col-md-11.col-12
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img.p-md-3(style="place-content: space-evenly;")
             img(src='@/assets/curso/temas/tema1/tema1-11.svg' class="w-lg-50" alt='')
           .tarjeta.color-primario--borde
             .p-4
               p.mb-0 En Cuanto a los factores contaminantes nocivos para la salud provienen diferentes fuentes como los gases y las partículas, por ello Larsen (2004) presenta evidencias sobre cómo el contaminante más fuertemente asociado a las muertes prematuras, bronquitis y afecciones respiratorias es el material particulado, en especial las partículas de menos de 2.5 micras de diámetro.
-      .col-lg-9.col-md-10.col-12
+      .col-lg-10.col-md-11.col-12
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img.p-md-3(style="place-content: space-evenly;")
             img(src='@/assets/curso/temas/tema1/tema1-12.svg' class="w-lg-50" alt='')
           .tarjeta.color-primario--borde
             .p-4
               p.mb-0 Por otra parte, la falta de cobertura de servicio de agua apta para el consumo humano y de sistemas de disposición de agua residual y de residuos sólidos, permite la presencia de enfermedades, entre las cuales están la diarrea, la filariasis linfática, la esquistosomiasis, el tracoma, infección por nemátodos intestinales, entre otras.
-      .col-lg-9.col-md-10.col-12
+      .col-lg-10.col-md-11.col-12
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img.p-md-3(style="place-content: space-evenly;")
             img(src='@/assets/curso/temas/tema1/tema1-13.svg' class="w-lg-50" alt='')
@@ -177,7 +179,7 @@
               p.mb-0 La Organización Mundial de la Salud (OMS) en el año 2002 informó que, a nivel mundial, se le atribuye al agua, saneamiento e higiene el 3.1 % de las muertes (1.7 millones) y 3.7 % de los AVAD (54.2 millones de años).
 
     p.mb-4(data-aos="fade-down") Entre una de las herramientas que busca contribuir en la articulación de acciones para el mejoramiento de la salud ambiental entre los sectores está el CONPES #[b 3550 de 2008], el cual definió la política integral de salud ambiental, priorizando los componentes de calidad de agua, la calidad del aire y la seguridad química.
-    p.text-center.mb-5(data-aos="fade-down") #[b Teniendo en cuenta el objetivo de esta unidad y para un mejor entendimiento, se hace necesario la revisión de los siguientes conceptos:]
+    p.mb-5(data-aos="fade-down") #[span Teniendo en cuenta el objetivo de esta unidad y para un mejor entendimiento, se hace necesario la revisión de los siguientes conceptos:]
 
     LineaTiempoD.color-acento-botones.mb-5(data-aos="fade-down-right")
       div(numero="1" titulo="Norma") 
@@ -205,7 +207,7 @@
       div(numero="5" titulo="Expedición de reglamentos técnicos") 
         p Estos deberán estar enmarcados dentro de la defensa de los objetivos legítimos, de conformidad con lo establecido en el Acuerdo sobre obstáculos técnicos al comercio de la Organización Mundial del Comercio (OMC). Se considerarán objetivos legítimos, entre otros, los imperativos de la seguridad nacional, la prevención de prácticas que puedan inducir a error, la protección de la salud o seguridad humana, de la vida, la salud animal o vegetal o del medio ambiente. (Decreto 1074 de 2015, Artículo 2.2.1.7.3.14. Ministerio de Comercio, Industria y Turismo, artículo 2.2.1.7.1.7., numeral 55, página 41).
 
-    p.text-center.mb-5(data-aos="fade-down") #[b Se debe revisar en la siguiente figura como se lleva a cabo el proceso de una política pública:]
+    p.mb-5(data-aos="fade-down") #[span Se debe revisar en la siguiente figura como se lleva a cabo el proceso de una política pública:]
 
     .row.justify-content-center.mb-5
       .col-12.mb-2.mb-md-0(data-aos="fade-left")
@@ -238,20 +240,22 @@
           a.boton.color-acento-botones.me-3(@click="modal1 = true; showData = 2")
             span Determinantes sociales de salud
             i.fas.fa-file
-        .tarjeta.color-secundario.p-4
+        .tarjeta.color-white.p-4
           p.mb-0 En el marco de un desarrollo sostenible, la salud ambiental como determinante de carácter estructural debe mediar los procesos de desarrollo, bajo una gestión totalmente intersectorial.
 
-    p.text-center.mb-3(data-aos="fade-down") #[b Para Corvalán, Kjellstrdm, Smith, (1999) y Neira, (2016), esta correspondencia se explica:]
+    p.mb-3(data-aos="fade-down") #[span Para Corvalán, Kjellstrdm, Smith, (1999) y Neira, (2016), esta correspondencia se explica:]
 
-    .bloque-texto-d.color-primario.p-4.mb-5(data-aos="fade-down")
-      .bloque-texto-d__texto.mb-2
-        i.fas.fa-quote-left
-        p.text-regular La relación entre el ambiente y la salud se ha reconocido como el resultado de interacciones complejas en diferentes niveles con factores no sólo físicos, químicos y biológicos sino también sociales, culturales y económicos que determinan las formas de ser y de vivir. Por ello, que la relación entre el ambiente y la salud contempla una interacción compleja entre los seres humanos y el ambiente natural, construido y social que los rodea, en el que no sólo el conjunto de estos factores determina la salud humana, sino en el que las prácticas humanas y los modos de vida influencian positiva o negativamente el ambiente.
-        i.fas.fa-quote-right
-      .bloque-texto-d__autor 
-        .h6.mb-0 Corvalán, Kjellstrdm, Smith, (1999) y Neira, (2016) (p.273)
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+      .col-12.col-lg-10
+        .bloque-texto-d.color-primario.p-4
+          .bloque-texto-d__texto.mb-2
+            i.fas.fa-quote-left
+            p.text-regular La relación entre el ambiente y la salud se ha reconocido como el resultado de interacciones complejas en diferentes niveles con factores no sólo físicos, químicos y biológicos sino también sociales, culturales y económicos que determinan las formas de ser y de vivir. Por ello, que la relación entre el ambiente y la salud contempla una interacción compleja entre los seres humanos y el ambiente natural, construido y social que los rodea, en el que no sólo el conjunto de estos factores determina la salud humana, sino en el que las prácticas humanas y los modos de vida influencian positiva o negativamente el ambiente.
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor 
+            .h6.mb-0 Corvalán, Kjellstrdm, Smith, (1999) y Neira, (2016) (p.273)
 
-    p.text-center.mb-3(data-aos="fade-down") #[b En la siguiente figura podrá conocer los factores determinantes entre las interacciones de salud y ambiente:]
+    p.mb-3(data-aos="fade-down") #[span En la siguiente figura podrá conocer los factores determinantes entre las interacciones de salud y ambiente:]
 
     .row.justify-content-center.mb-5
       .col-12.mb-2.mb-md-0(data-aos="fade-left")
@@ -283,15 +287,18 @@
       figure
         img(src='@/assets/curso/temas/tema1/info-1a.svg', alt='')
     
-    p.mb-4(data-aos="fade-down") En este sentido, es muy importante conservar la base natural del país como estrategia para asegurar el crecimiento de los sectores agrícola y energético, así como del sector turístico. Las actividades económicas que se realizan en el territorio no sustentables con el ambiente inciden en el deterioro ambiental, así como la mayor variabilidad climática, este último resultado de los procesos de cambio climático genera condiciones de riesgo crecientes sobre las poblaciones y la economía. 
+    p.mb-5(data-aos="fade-down") En este sentido, es muy importante conservar la base natural del país como estrategia para asegurar el crecimiento de los sectores agrícola y energético, así como del sector turístico. Las actividades económicas que se realizan en el territorio no sustentables con el ambiente inciden en el deterioro ambiental, así como la mayor variabilidad climática, este último resultado de los procesos de cambio climático genera condiciones de riesgo crecientes sobre las poblaciones y la economía. 
 
-    .tarjeta.tarjeta--azul.row.justify-content-center.align-items-center.p-4.mb-4(data-aos="fade-down")
-      .col-12.col-md-7.col-lg-6
-        p.mb-0 Los patrones de energía, consumo, extracción, el desarrollo de actividades productivas, el incremento de la población que demanda mayor prestación de bienes y servicios como el transporte, el comercio, la industria y la tecnología, causan alteraciones en el ambiente conllevando a la degradación de recursos naturales como el agua, el aire, el suelo, la biodiversidad entre otros componentes ambientales, generando pérdida y desequilibrio en los ecosistemas, y efectos en el bienestar y la salud de las personas, siendo hechos que difícilmente pueden revertirse.
-      .col-10.col-md-3 
-        img(src='@/assets/curso/temas/tema1/tema1-17.svg', alt='')
+    //- .tarjeta.tarjeta--azul.row.justify-content-center.align-items-center.p-4.mb-4(data-aos="fade-down")
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-12.col-md-12.col-lg-10
+        .cajon.tarjeta--azul.row.justify-content-center.align-items-center.p-4
+          .col-12.col-md
+            p.mb-0 Los patrones de energía, consumo, extracción, el desarrollo de actividades productivas, el incremento de la población que demanda mayor prestación de bienes y servicios como el transporte, el comercio, la industria y la tecnología, causan alteraciones en el ambiente conllevando a la degradación de recursos naturales como el agua, el aire, el suelo, la biodiversidad entre otros componentes ambientales, generando pérdida y desequilibrio en los ecosistemas, y efectos en el bienestar y la salud de las personas, siendo hechos que difícilmente pueden revertirse.
+          .col-10.col-md-3 
+            img(src='@/assets/curso/temas/tema1/tema1-17.svg', alt='')
 
-    p.text-center.mb-4(data-aos="fade-down") #[b Lo anterior se contrasta con las siguientes evidencias en el contexto colombiano:]
+    p.mb-4(data-aos="fade-down") #[span Lo anterior se contrasta con las siguientes evidencias en el contexto colombiano:]
 
     .row.mb-5(data-aos="fade-down")
       .col-md-6.col-lg.tarjeta--tabla.p-4
@@ -377,43 +384,60 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-18.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En el marco de la gestión en salud pública, se han emitido normas sanitarias Conpes, mediante dos planes decenales de salud pública los cuales abarcan los siguientes períodos de tiempo: 1) 2012-2021, 2) 2022-2031; en tal sentido en el siguiente enlace, Resolución No. 295 de 2023 se presenta el consolidado de algunas normas en el marco de la gestión pública, dar #[a(href="https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No.%20295%20de%202023.pdf" style="color:blue;" target="_blank") clic aquí].
+        p.mb-0 En el marco de la gestión en salud pública, se han emitido normas sanitarias Conpes, mediante dos planes decenales de salud pública los cuales abarcan los siguientes períodos de tiempo: 1) 2012-2021, 2) 2022-2031.
     
+    .row.justify-content-center.mb-5(data-aos="fade-down-right")
+      .col-12.col-lg-10
+        .tarjeta.color-acento-contenido.p-3(data-aos="fade-down-right")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema1/doc3.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Normas en el marco de la gestión pública
+                  p En el siguiente enlace, Resolución No. 295 de 2023 se presenta el consolidado de algunas normas en el marco de la gestión pública.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No.%20295%20de%202023.pd" target="_blank")
+                    span Enlace web
+                    i.fas.fa-file-code
+
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Plan Decenal de Salud Pública
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
-      .col-12.col-md-7.col-lg-8
+      .col-12.col-md-8.col-lg-9
         p El Plan Decenal de Salud Pública es el que plantea los desafíos en materia de salud pública para Colombia. Además, es elaborado "a través de un proceso amplio de participación social y en el marco de la estrategia de atención primaria en salud, en el cual deben confluir las políticas sectoriales para mejorar el estado de salud de la población, incluyendo la salud mental, garantizando que el proceso de participación social sea eficaz, mediante la promoción de la capacitación de la ciudadanía y de las organizaciones sociales. Así mismo se definirán los objetivos, las metas, las acciones, los recursos, los responsables sectoriales, los indicadores de seguimiento, y los mecanismos de evaluación del Plan" (Artículo 6 de la Ley 1438 de 2011).
         p En cumplimiento con dicha disposición se emitió la #[b Resolución 1035 de 2022], la cual adopta el Plan Decenal de Salud Pública 2022-2031, y busca:
-      .col-12.col-md-5.col-lg-4
+      .col-12.col-md-4.col-lg-3
         img(src='@/assets/curso/temas/tema1/tema1-19.png', alt='')
 
     .row.mb-5(data-aos="fade-down")
       .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
-        .tarjeta-numerada.color-primario.p-5
+        .tarjeta-numerada.color-primario.p-4
           .tarjeta-numerada__numero
             .h2 1
-          p.text-center Avanzar en la garantía del derecho fundamental a la salud.
+          p.text-center.ps-2.mb-0 Avanzar en la garantía del derecho fundamental a la salud.
       .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
-        .tarjeta-numerada.color-secundario.p-5
+        .tarjeta-numerada.color-secundario.p-4
           .tarjeta-numerada__numero
             .h2 2
-          p.text-center Avanzar hacia las mejoras de las condiciones de vida, bienestar y calidad de vida de los habitantes.
+          p.text-center.ps-2.mb-0 Avanzar hacia las mejoras de las condiciones de vida, bienestar y calidad de vida de los habitantes.
       .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
-        .tarjeta-numerada.color-acento-contenido.p-5
+        .tarjeta-numerada.color-acento-contenido.p-4
           .tarjeta-numerada__numero
             .h2 3
-          p.text-center Reducir la mortalidad evitable y su impacto en los años de vida perdidos.
+          p.text-center.ps-2.mb-0 Reducir la mortalidad evitable y su impacto en los años de vida perdidos.
       .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
-        .tarjeta-numerada.color-acento-botones.p-5
+        .tarjeta-numerada.color-acento-botones.p-4
           .tarjeta-numerada__numero
             .h2 4
-          p.text-center Avanzar hacia la garantía del goce efectivo de un ambiente sano y la mejora de la salud ambiental. 
-
-    .cajon.color-secundario.p-4.mb-4(data-aos="fade-down-left")
-      p.mb-0 El referido plan será implementado y ejecutado por las entidades territoriales, las entidades promotoras de salud, las instituciones prestadoras de servicio de salud, entre otras, en coordinación con otros sectores y entidades que realicen acciones y funciones relacionadas con la intervención de los determinantes sociales de la salud (Artículo 2, Resolución 1035 de 2022).  
+          p.text-center.ps-2.mb-0 Avanzar hacia la garantía del goce efectivo de un ambiente sano y la mejora de la salud ambiental. 
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-12.col-md-12.col-lg-10
+        .cajon.color-secundario.p-4(data-aos="fade-down-left")
+          p.mb-0 El referido plan será implementado y ejecutado por las entidades territoriales, las entidades promotoras de salud, las instituciones prestadoras de servicio de salud, entre otras, en coordinación con otros sectores y entidades que realicen acciones y funciones relacionadas con la intervención de los determinantes sociales de la salud (Artículo 2, Resolución 1035 de 2022).  
 
     p.mb-5(data-aos="fade-down") A continuación, se identifican algunas condiciones de salud, determinantes sociales, ambientales y de consumo dentro del #[b Plan Decenal de Salud Pública 2022-2031:]
 
@@ -444,18 +468,21 @@
           figure
             img(src='@/assets/curso/temas/tema1/tema1-23.png', alt='')
 
-    p.text-center.mb-4(data-aos="fade-down") Igualmente, el #[b Plan Decenal de Salud Pública 2022-2031] dispone algunas metas para salud ambiental: 
+    p.text-start.mb-4(data-aos="fade-down") Igualmente, el #[b Plan Decenal de Salud Pública 2022-2031] dispone algunas metas para salud ambiental: 
 
-    .tarjeta.color-primario.p-4.mb-5(data-aos="fade-down-right")
+    .BGIMG01.p-4.mb-5(data-aos="fade-down-right")
       SlyderB.mb-5(:datos="datosSlyder2")
 
     p.mb-5(data-aos="fade-down") Estas metas, serán analizadas permanentemente por medio del sistema de seguimiento y monitoreo del plan, para tal efecto, se generarán orientaciones y retroalimentación a los territorios, con el ánimo de fortalecer los procesos de toma de decisiones informadas. Paralelamente el #[b Ministerio de Salud y Protección Social], de forma complementaria desarrollará procesos de evaluación, con el fin de permitir enriquecer los procesos de ejecución y/o reorientar de manera oportuna las estrategias para el logro de los fines establecidos. 
     
-    .tarjeta.color-secundario.row.justify-content-center.align-items-center.p-4.mb-5(data-aos="fade-down")
-      .col-10.col-md-3.col-lg-2
-        img(src='@/assets/curso/temas/tema1/tema1-31.png', alt='')
-      .col-12.col-md-9.col-lg-8
-        p.mb-0 Se debe recordar que la salud pública “es un campo de acción estatal y social de gran relevancia para la garantía del derecho a la salud y por lo tanto sus actuaciones sectoriales y conjuntas con otros actores y sectores deben dar cuenta de lo exigible en el marco de derechos bajo el reconocimiento de su interdependencia e indivisibilidad” (Plan Decenal de Salud Pública 2022-2031).
+    //- .tarjeta.color-secundario.row.justify-content-center.align-items-center.p-4.mb-5(data-aos="fade-down")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+      .col-12.col-lg-10
+        .cajon.tarjeta--azul.row.justify-content-center.align-items-center.p-4
+          .col-10.col-md-4.col-lg-3
+            img.p-lg-3(src='@/assets/curso/temas/tema1/tema1-31.png', alt='')
+          .col-12.col-md-8.col-lg-9
+            p.mb-0 Se debe recordar que la salud pública “es un campo de acción estatal y social de gran relevancia para la garantía del derecho a la salud y por lo tanto sus actuaciones sectoriales y conjuntas con otros actores y sectores deben dar cuenta de lo exigible en el marco de derechos bajo el reconocimiento de su interdependencia e indivisibilidad” (Plan Decenal de Salud Pública 2022-2031).
     
 
     Separador
@@ -464,7 +491,7 @@
 
     p.mb-4(data-aos="fade-down") Fue emitido por la #[b Ley 1801 de 2016], y busca, entre otras funciones, establecer las condiciones para la convivencia en el territorio nacional al propiciar el cumplimiento de los deberes y obligaciones de las personas naturales y jurídicas, así como determinar el ejercicio del poder, la función y la actividad de policía, de conformidad con la Constitución Política y el ordenamiento jurídico vigente (Artículo 1, Ley 1801 de 2016).
 
-    p.text-center.mb-4(data-aos="fade-down") #[b Las medidas correctivas del código de policía son: ]
+    p.text-start.mb-4(data-aos="fade-down") #[span Las medidas correctivas del código de policía son: ]
 
     TabsB.color-acento-botones.mb-5(data-aos="fade-down-left")
       .py-4.py-md-5(titulo="¿Qué son las medidas correctivas? " :icono="require('@/assets/curso/temas/tema1/tema1-i1.svg')")
@@ -545,19 +572,22 @@
               li.mb-0
                 span •	Los comandantes de estación, subestación y de centro de atención inmediata de policía y demás personal uniformado de la Policía Nacional.
               
-    .tarjeta.color-acento-contenido.p-3.mb-5(data-aos="fade-left")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/doc3.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Ley 1801 de 2016
-              p.text-small En el siguiente documento, Ley 1801 de 2016, se describen algunos aspectos del ambiente y de salud pública, que fueron reglamentados.    
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+              
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+      .col-12.col-lg-10
+        .tarjeta.color-acento-contenido.p-3(data-aos="fade-left")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/tema1/doc3.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Ley 1801 de 2016
+                  p.text-small En el siguiente documento, Ley 1801 de 2016, se describen algunos aspectos del ambiente y de salud pública, que fueron reglamentados.    
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538" target="_blank")
+                    span Enlace web
+                    i.fas.fa-file-code
 
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -565,7 +595,7 @@
 
     p.mb-4(data-aos="fade-down") El Modelo de Fuerzas Motrices (MFM) es un instrumento que adoptó Ministerio de Salud y Protección Social (MSPS), en el marco del Plan Decenal de Salud Pública (2012-2021), con el fin de analizar las condiciones ambientales que afectan la salud humana, es un instrumento de amplio uso para plantear todas las acciones que permitan el manejo de dichas condiciones.
 
-    p.text-center.mb-4(data-aos="fade-down") Para profundizar en el Modelo de Fuerzas Motrices (MFM), se puede revisar con atención el contenido que se propone a continuación:
+    p.text-start.mb-4(data-aos="fade-down") #[span Para profundizar en el Modelo de Fuerzas Motrices (MFM), se puede revisar con atención el contenido que se propone a continuación:]
 
     PasosA.color-primario.mb-5(tipo="n" data-aos="fade-right")
       .row.justify-content-center.align-items-center
@@ -584,7 +614,7 @@
           p El MFM apoya las acciones que se deben realizar en el territorio, para abordar los problemas de salud causados por los factores de riesgo ambientales.
       .row.justify-content-center.align-items-center
         .col-md-7.mb-4.mb-md-0
-          p Ahora bien, el Modelo Integrado para la Salud Ambiental, (Integrative Model for Environmental Health (IMEH)), propuesto por Dixon y Dixon en el 2002 ha sido utilizado para analizar los problemas de salud, para revisar los riesgos y los problemas ambientales, este hace énfasis en los siguientes factores:
+          p Ahora bien, el Modelo Integrado para la Salud Ambiental, (#[em Integrative Model for Environmental Health] (IMEH)), propuesto por Dixon y Dixon en el 2002 ha sido utilizado para analizar los problemas de salud, para revisar los riesgos y los problemas ambientales, este hace énfasis en los siguientes factores:
           p #[b Fisiológico:] comprendido por los agentes (biológico, químico o físico), el proceso de exposición, la incorporación física de dicha exposición y, el efecto negativo en la salud.
         .col-md-5
           figure
