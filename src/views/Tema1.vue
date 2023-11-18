@@ -384,7 +384,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-18.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En el marco de la gestión en salud pública, se han emitido normas sanitarias Conpes, mediante dos planes decenales de salud pública los cuales abarcan los siguientes períodos de tiempo: 1) 2012-2021, 2) 2022-2031.
+        p.mb-0 En el marco de la gestión en salud pública, se han emitido normas sanitarias CONPES, mediante dos planes decenales de salud pública los cuales abarcan los siguientes períodos de tiempo: 1) 2012-2021, 2) 2022-2031.
     
     .row.justify-content-center.mb-5(data-aos="fade-down-right")
       .col-12.col-lg-10
@@ -398,7 +398,7 @@
                   h3.mb-1 Normas en el marco de la gestión pública
                   p En el siguiente enlace, Resolución No. 295 de 2023 se presenta el consolidado de algunas normas en el marco de la gestión pública.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No.%20295%20de%202023.pd" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No.%20295%20de%202023.pdf" target="_blank")
                     span Enlace web
                     i.fas.fa-file-code
 

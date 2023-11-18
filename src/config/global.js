@@ -243,7 +243,7 @@ export default {
         'Variación del estado del clima, identificable, por ejemplo, mediante pruebas estadísticas, en las variaciones del valor medio o en la variabilidad de sus propiedades, que persiste durante largos períodos de tiempo, generalmente decenios o períodos más largos. El cambio climático puede deberse a procesos internos naturales o forzamientos externos tales como modulaciones de los ciclos solares, erupciones volcánicas o cambios antropogénicos persistentes de Ia composición de la atmósfera por el incremento de las concentraciones de Ios gases de efecto invernadero o del uso del suelo (Ley 1931 de 2018, artículo 3, numeral 4).',
     },
     {
-      termino: 'Consejo Nacional de Política Económica y Social (Conpes)',
+      termino: 'Consejo Nacional de Política Económica y Social (CONPES)',
       significado:
         'Es la máxima autoridad nacional de planeación y se desempeña como organismo asesor del Gobierno en todos los aspectos relacionados con el desarrollo económico y social del país. Para lograrlo, coordina y orienta a los organismos encargados de la dirección económica y social en el Gobierno, a través del estudio y aprobación de documentos sobre el desarrollo de políticas generales que son presentados en sesión. Fue creado por la Ley 19 de 1958. <br>El Departamento Nacional de Planeación desempeña las funciones de Secretaría Ejecutiva del CONPES, y por lo tanto es la entidad encargada de coordinar y presentar todos los documentos para discutir en sesión.',
     },

@@ -200,7 +200,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 El Conpes 3550 de 2008
+                  h3.mb-1 El CONPES 3550 de 2008
                   p A continuación, se puede consultar el documento: Lineamientos para la formulación de la política integral de salud ambiental con énfasis en los componentes de calidad de aire, calidad de agua y seguridad química.  
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3550.pdf" target="_blank")

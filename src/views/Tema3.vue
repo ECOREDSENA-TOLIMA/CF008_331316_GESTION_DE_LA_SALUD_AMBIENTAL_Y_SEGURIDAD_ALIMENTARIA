@@ -284,7 +284,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Conpes 3550 de 2008
+                  h3.mb-1 CONPES 3550 de 2008
                   p A continuación, se puede consultar el documento: estrategia de entornos saludables, plan de acción intersectorial.  
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SA/plan-de-accion-intersectorial.pdf" target="_blank")

@@ -13,7 +13,7 @@
     
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="Normativa vigente para la gestión de la salud ambiental" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/pys9gE4JUWk" title="Normativa vigente para la gestión de la salud ambiental" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Normativa vigente para la gestión de la salud ambiental
     
 </template>
