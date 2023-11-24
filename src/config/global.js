@@ -113,7 +113,7 @@ export default {
           {
             numero: '3.4',
             titulo:
-              'Guías e instrumentos para la inspección vigilancia y control sanitario',
+              'Guías e instrumentos para la inspección, vigilancia y control sanitario',
             hash: 't_3_4',
           },
           {
@@ -200,14 +200,14 @@ export default {
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Xk-A-I9Jbsw',
     },
-    // {
-    //   tema: '3.2 Modelo',
-    //   referencia:
-    //     'Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA). (2015). Manual de Inspección, Vigilancia y Control Sanitario de alimentos y bebidas basado en riesgo para las Entidades Territoriales de Salud.',
-    //   tipo: 'Documento legal',
-    //   link:
-    //     'https://www.invima.gov.co/documents/20143/1402493/28.+Manual+de+IVC+de+Alimentos+y+Bebidas+basado+en+el+riesgo+para+Las+ETS.pdf',
-    // },
+    {
+      tema: '3.2 Modelo',
+      referencia:
+        'Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA). (2015). Manual de Inspección, Vigilancia y Control Sanitario de alimentos y bebidas basado en riesgo para las Entidades Territoriales de Salud.',
+      tipo: 'Documento legal',
+      link:
+        'https://www.ibague.gov.co/portal/admin/archivos/publicaciones/2018/21857-DOC-20181009.pdf',
+    },
     {
       tema: '3.2 Modelo',
       referencia:
@@ -218,7 +218,7 @@ export default {
     },
     {
       tema:
-        '3.4 Guías e instrumentos para la inspección vigilancia y control sanitario',
+        '3.4 Guías e instrumentos para la inspección, vigilancia y control sanitario',
       referencia:
         'Secretaría Distrital de Salud de Bogotá. (2016). Lineamiento para el uso de las actas de visita a establecimientos abiertos al público.',
       tipo: 'Documento legal',
@@ -268,7 +268,7 @@ export default {
         'Enfermedades que se originan por la ingestión de alimentos infectados con agentes contaminantes en cantidades suficientes como para afectar la salud del consumidor. Sean sólidos, naturales, preparados o bebidas como el agua, los alimentos pueden originar dolencias provocadas por patógenos, como bacterias, virus, hongos, parásitos o componentes químicos que se encuentran en descomposición.',
     },
     {
-      termino: 'Eventos de Interés en Salud Pública ',
+      termino: 'Eventos de Interés en Salud Pública',
       significado:
         'Aquellos eventos considerados como importantes o trascendentes para la salud colectiva por parte del Ministerio de la Protección Social, teniendo en cuenta criterios de frecuencia, gravedad, comportamiento epidemiológico, posibilidades de prevención, costo - efectividad de las intervenciones, e interés público; que además, requieren ser enfrentados con medidas de salud pública.',
     },
@@ -285,7 +285,7 @@ export default {
     {
       termino: 'Salud Ambiental',
       significado:
-        'Es el resultado de la interacción de factores que operan en distintos niveles de agregación y en el marco de procesos complejos, que van más allá de los componentes tradicionales biológicos, físicos y químicos del medio ambiente. Para su mejor comprensión, la salud ambiental se puede contextualizar usando como referencia el marco de los factores determinantes de la salud (CONPES 3550 de 2008).',
+        'Es el resultado de la interacción de factores que operan en distintos niveles de agregación y en el marco de procesos complejos, que van más allá de los componentes tradicionales, biológicos, físicos y químicos del medio ambiente. Para su mejor comprensión, la salud ambiental se puede contextualizar usando como referencia el marco de los factores determinantes de la salud (CONPES 3550 de 2008).',
     },
     {
       termino: 'Salud Pública',
@@ -349,7 +349,7 @@ export default {
       referencia:
         'Consejo Nacional de Política Económica y Social y Departamento Nacional de Planeación. (2010). CONPES 3676. Consolidación de la política sanitaria y de inocuidad para las cadenas láctea y cárnica. ',
       link:
-        'https://www.ica.gov.co/ getattachment/3b31038a-72ba-40f9-a34d-cecd89015890/2010cp3676.aspx',
+        'https://www.ica.gov.co/getattachment/3b31038a-72ba-40f9-a34d-cecd89015890/2010cp3676.aspx',
     },
     {
       referencia:
@@ -407,7 +407,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Salud y de Protección Social. (2013). Resolución 1220 del 23 de abril de 2013. Por el cual se establece el modelo de inspección, vigilancia y control sanitario para los productos de uso y consumo humano. ',
+        'Ministerio de Salud y de Protección Social. (2013). Resolución 1229 del 23 de abril de 2013. Por el cual se establece el modelo de inspección, vigilancia y control sanitario para los productos de uso y consumo humano. ',
       link:
         'https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%201229%20de%202013.PDF',
     },
@@ -418,9 +418,9 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Salud y de la Protección Social. Manual de inspección, vigilancia y control sanitario de Alimentos y bebidas basado en riesgo para las entidades Territoriales de salud. ',
+        'Ministerio de Salud y de la Protección Social. (2015). Manual de inspección, vigilancia y control sanitario de Alimentos y bebidas basado en riesgo para las entidades Territoriales de salud. ',
       link:
-        'https://www.invima.gov.co/documents/20143/1402493/28.+Manual+de+IVC+de+Alimentos+y+Bebidas+basado+en+el+riesgo+para+Las+ETS.pdf',
+        'https://www.ibague.gov.co/portal/admin/archivos/publicaciones/2018/21857-DOC-20181009.pdf',
     },
     {
       referencia:

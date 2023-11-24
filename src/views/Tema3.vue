@@ -105,7 +105,7 @@
 
     .row.justify-content-around.align-items-center.mb-5(data-aos="fade-down-left")
       .col-lg-7.col-12.col-md-8
-        p El modelo operativo de inspección, vigilancia y control sanitario en salud ambiental, se basa en el principio de previsión y centra el desarrollo de las acciones con un enfoque preventivo con el objetivo de contar con la capacidad anticipatoria para eliminar, reducir o mitigar riesgos antes de producirse un daño a la salud pública, generados por condiciones sanitarias asociados a la producción de bienes y servicios. Bajo este enfoque preventivista, se deben plantear las acciones de promoción de la salud, mejores prácticas y el fomento de una cultura sanitaria en la ciudadanía. Así mismo, incluye procesos de acompañamiento y auditoría para asegurar el control previo a bienes y servicios, el desarrollo de acciones que deban implementarse como cautelares y el control de la gestión del modelo.
+        p El modelo operativo de inspección, vigilancia y control sanitario en salud ambiental, se basa en el principio de previsión y centra el desarrollo de las acciones con un enfoque preventivo, con el objetivo de contar con la capacidad anticipatoria para eliminar, reducir o mitigar riesgos antes de producirse un daño a la salud pública, generados por condiciones sanitarias asociados a la producción de bienes y servicios. Bajo este enfoque preventivista, se deben plantear las acciones de promoción de la salud, mejores prácticas y el fomento de una cultura sanitaria en la ciudadanía. Así mismo, incluye procesos de acompañamiento y auditoría para asegurar el control previo a bienes y servicios, el desarrollo de acciones que deban implementarse como cautelares y el control de la gestión del modelo.
       .col-lg-5.col-12.col-md-4
         img(src="@/assets/curso/temas/tema3/tema3-3.png")
     
@@ -174,7 +174,7 @@
                     i.fas.fa-file-code
 
     .cajon.color-secundario.p-4.mb-4(data-aos="fade-down-left")
-      p.mb-0 No se debe olvidar, que el Plan Decenal de Salud Pública 2022-2031, incluyó en sus metas lo relacionado con la calidad del aire pues es el componente que más genera enfermedades en la población, al igual que la calidad del agua para consumo humano, que también tiene un gran peso a nivel poblacional, de ahí la necesidad de trabajar políticas articuladas (más limpias para que se tenga control en las emisiones generadas por fuentes fijas y móviles) y no limitarse a la atención de los casos clínicos.
+      p.mb-0 No se debe olvidar, que el Plan Decenal de Salud Pública 2022-2031, incluyó en sus metas lo relacionado con la calidad del aire, pues es el componente que más genera enfermedades en la población, al igual que la calidad del agua para consumo humano, que también tiene un gran peso a nivel poblacional, de ahí la necesidad de trabajar políticas articuladas (más limpias para que se tenga control en las emisiones generadas por fuentes fijas y móviles) y no limitarse a la atención de los casos clínicos.
 
     Separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -208,7 +208,7 @@
 
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.4 Guías e instrumentos para la inspección vigilancia y control sanitario
+      h2 3.4 Guías e instrumentos para la inspección, vigilancia y control sanitario
 
     p.mb-4(data-aos="fade-down") Entre las guías e instrumentos utilizados por la autoridad sanitaria para realizar las acciones de inspección, vigilancia y control sanitario a los objetos de inspección, vigilancia y control de interés para salud ambiental se encuentra el acta. En el siguiente recurso se podrá conocer la definición de actas y sus tipos:
 
@@ -216,7 +216,7 @@
     p.mb-4(data-aos="fade-down") Instrumento que permite consolidar la información frente a las acciones de inspección, vigilancia y control sanitario, en concordancia con las normas vigentes, dicha acta se diligencia en el momento de efectuar la visita sanitaria.
 
     h4.color-boton(data-aos="fade-right") Acta general de inspección, vigilancia y control sanitario
-    p.mb-4(data-aos="fade-down") Fundamentada en el enfoque de riesgo y la conforman los aspectos generales definidos por la #[b Ley 09 de 1979]. Este instrumento debe ser utilizado para realizar la inspección y vigilancia sanitaria a los objetos de IVC de interés para salud ambiental los cuales no cuenten con normatividad específica para realizar la vigilancia sanitaria, como por ejemplo viviendas (atención de quejas o eventos), papelerías, misceláneas, entre otros.  
+    p.mb-4(data-aos="fade-down") Fundamentada en el enfoque de riesgo y la conforman los aspectos generales definidos por la #[b Ley 09 de 1979]. Este instrumento debe ser utilizado para realizar la inspección y vigilancia sanitaria a los objetos de IVC de interés para salud ambiental, los cuales no cuenten con normatividad específica para realizar la vigilancia sanitaria, como por ejemplo viviendas (atención de quejas o eventos), papelerías, misceláneas, entre otros.  
       
     h4.color-boton(data-aos="fade-right") Actas específicas para la inspección y vigilancia sanitaria
     p.mb-4(data-aos="fade-down") Se encuentran centradas en la actividad económica principal del objeto de IVC sanitario y la normatividad sanitaria específica aplicable a estos objetos de IVC sanitario. Durante la visita de inspección se aplicarán actas específicas con enfoque de riesgo para aquellos objetos de IVC sanitario que cuenten con normatividad propia para la inspección y vigilancia de aspectos particulares.
@@ -247,7 +247,7 @@
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.5 Gestión de la salud ambiental a nivel nacional y territorial
 
-    p.mb-4(data-aos="fade-down") En el marco de la gestión de la salud ambiental a nivel nacional, aparte de avanzar con reglamentar aspectos ambientales y que para tal efecto han emitido normas, políticas sectoriales, políticas intersectoriales, planes, programas y proyectos, entre otros; también las entidades públicas vienen trabajando en la elaboración de un sistemas de información  para salud ambiental, como es la #[b Política Integral de Salud Ambiental (PISA)], si bien es cierto que actualmente existen diferentes sistemas de información por sector, también es cierto que ninguno de ellos se articula, ni están teniendo en cuenta los aspectos ambientales de forma coordinada para poder establecer una completa coordinación. 
+    p.mb-4(data-aos="fade-down") En el marco de la gestión de la salud ambiental a nivel nacional, aparte de avanzar con reglamentar aspectos ambientales y que para tal efecto han emitido normas, políticas sectoriales, políticas intersectoriales, planes, programas y proyectos, entre otros; también las entidades públicas vienen trabajando en la elaboración de un sistema de información  para salud ambiental, como es la #[b Política Integral de Salud Ambiental (PISA)], si bien es cierto que actualmente existen diferentes sistemas de información por sector, también es cierto que ninguno de ellos se articula, ni están teniendo en cuenta los aspectos ambientales de forma coordinada para poder establecer una completa coordinación. 
 
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -263,7 +263,7 @@
           div(numero="3" titulo="El Sistema de Información Ambiental de Colombia (SIAC)") 
             p Es el conjunto integrado de actores, políticas, procesos, y tecnologías involucradas en la gestión de información ambiental del país, para facilitar la generación de conocimiento, la toma de decisiones, la educación y la participación social para el desarrollo.
           div(numero="4" titulo="El SUISA (Sistema Unificado de Información en Salud Ambiental)") 
-            p Definido como un sistema de gestión del conocimiento, que recoge la información que producen los sectores para el análisis de los determinantes sociales y ambientales y sus efectos sobre la salud de la población, que apoya la toma de decisiones intersectoriales, aporta la gestión intersectorial y el conocimiento y comunicación del riesgo. trabaja temática en salud ambiental como agua, aire, clima, químicos y seguridad vial, entre otros.
+            p Definido como un sistema de gestión del conocimiento, que recoge la información que producen los sectores para el análisis de los determinantes sociales y ambientales y sus efectos sobre la salud de la población, que apoya la toma de decisiones intersectoriales, aporta la gestión intersectorial y el conocimiento y comunicación del riesgo, trabaja temática en salud ambiental como agua, aire, clima, químicos y seguridad vial, entre otros.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-12.col-lg-10

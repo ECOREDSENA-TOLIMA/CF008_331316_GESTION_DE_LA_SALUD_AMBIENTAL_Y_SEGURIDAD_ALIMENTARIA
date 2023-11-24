@@ -30,7 +30,7 @@
     p.mb-5(data-aos="fade-down") Posteriormente, en el año #[b 1991] se promulga la #[b Constitución Política Nacional de Colombia], que estableció algunas disposiciones las cuales son tenidas en cuenta por las reglamentaciones de los aspectos ambientales. Algunos de los artículos dispuestos en el momento de reglamentar aspectos ambientales son:
 
     .BGIMG01.mb-5.p-4(data-aos="fade-down-right")
-      SlyderB.mb-5(:datos="datosSlyder")
+      SlyderB.ipad-b.mb-5(:datos="datosSlyder")
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-12.col-md-10.col-lg-8
@@ -144,7 +144,7 @@
       .col-12.col-md-8.col-lg-9
         p La relación entre salud y ambiente es una de las preocupaciones más significativas. Por ello el sector salud, tiene el deber de contribuir en la protección y el bienestar de las personas que propendan en el desarrollo humano sostenible.
         .cajon.color-secundario.p-4
-          p Para ello este sector debe articular acciones con otros semejantes (ambiente, trabajo, agricultura, educación, comercio, servicios públicos, agropecuario, industrial, entre otros), que conlleven a conocer, monitorear y contrarrestar las causas del deterioro ambiental. La salud de las personas depende entre otras causas de las condiciones ambientales y la experiencia, ello quiere decir que la salud no es un resultado único de las acciones realizadas por el sector salud, sino que surge como resultado de los compromisos que asumen las personas, las comunidades los gobiernos y la participación social.
+          p Para ello, este sector debe articular acciones con otros semejantes (ambiente, trabajo, agricultura, educación, comercio, servicios públicos, agropecuario, industrial, entre otros), que conlleven a conocer, monitorear y contrarrestar las causas del deterioro ambiental. La salud de las personas depende entre otras causas de las condiciones ambientales y la experiencia, ello quiere decir que la salud no es un resultado único de las acciones realizadas por el sector salud, sino que surge como resultado de los compromisos que asumen las personas, las comunidades, los gobiernos y la participación social.
 
     p.mb-5(data-aos="fade-down") #[span A continuación, podrá consultar los principales factores del medio ambiente que pueden afectar la salud humana:]
 
@@ -162,7 +162,7 @@
             img(src='@/assets/curso/temas/tema1/tema1-11.svg' class="w-lg-50" alt='')
           .tarjeta.color-primario--borde
             .p-4
-              p.mb-0 En Cuanto a los factores contaminantes nocivos para la salud provienen diferentes fuentes como los gases y las partículas, por ello Larsen (2004) presenta evidencias sobre cómo el contaminante más fuertemente asociado a las muertes prematuras, bronquitis y afecciones respiratorias es el material particulado, en especial las partículas de menos de 2.5 micras de diámetro.
+              p.mb-0 En cuanto a los factores contaminantes nocivos para la salud provienen diferentes fuentes como los gases y las partículas, por ello Larsen (2004) presenta evidencias sobre cómo el contaminante más fuertemente asociado a las muertes prematuras, bronquitis y afecciones respiratorias es el material particulado, en especial las partículas de menos de 2.5 micras de diámetro.
       .col-lg-10.col-md-11.col-12
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img.p-md-3(style="place-content: space-evenly;")
@@ -271,7 +271,7 @@
           .anexo__texto
             p #[b Descargar]. Factores determinantes: interacciones de salud y ambiente 
 
-    p.mb-4(data-aos="fade-down") En el siguiente contenido se presentan las estrategias fundamentales que utilizan los sectores públicos y privados, las organizaciones sociales y la comunidad, para abordar la problemática ambiental generada por fenómenos antrópicos y naturales: 
+    p.mb-4(data-aos="fade-down") A continuación, se presentan las estrategias fundamentales que utilizan los sectores públicos y privados, las organizaciones sociales y la comunidad, para abordar la problemática ambiental generada por fenómenos antrópicos y naturales: 
 
     ImagenInfografica.color-acento-botones.d-none.d-md-block.mb-5(data-aos="fade-down")
       template(v-slot:imagen)
@@ -457,7 +457,7 @@
       .row(numero="3" titulo="2.14.1. Calidad del aire (material particulado, PM10)")
         .col-md-8.mb-4.mb-md-0
           p El promedio en la concentración de material particulado de 10 micras en un periodo de 7 años, el cual se calculó a partir de los registros anuales de las estaciones de monitoreo que tenían datos completos para 2012, 2016 y 2019. Se presenta también el referente normativo de 30 µg/m3 proyectado al año 2030 según Resolución 2254 de 2017. 
-          p La e4.col-8tación con mayor PM10 promedio es la de Acopi, localizada en la zona industrial de Yumbo, seguida por la estación Carvajal Sevillana de Bogotá, la estación Medellín Alta en Antioquia, la estación Kennedy en Bogotá y la estación la Jagua Vía en el municipio la Jagua de Ibirico, César. La estación con menor promedio fue la estación en la Cuenca Río Risaralda en el municipio de la Virginia, Risaralda. 
+          p La estación con mayor PM10 promedio es la de Acopi, localizada en la zona industrial de Yumbo, seguida por la estación Carvajal Sevillana de Bogotá, la estación Medellín Alta en Antioquia, la estación Kennedy en Bogotá y la estación la Jagua Vía en el municipio la Jagua de Ibirico, César. La estación con menor promedio fue la estación en la Cuenca Río Risaralda en el municipio de la Virginia, Risaralda. 
         .col-md-4.col-8
           figure
             img(src='@/assets/curso/temas/tema1/tema1-22.png', alt='')
@@ -471,7 +471,7 @@
     p.text-start.mb-4(data-aos="fade-down") Igualmente, el #[b Plan Decenal de Salud Pública 2022-2031] dispone algunas metas para salud ambiental: 
 
     .BGIMG01.p-4.mb-5(data-aos="fade-down-right")
-      SlyderB.mb-5(:datos="datosSlyder2")
+      SlyderB.ipad-b.mb-5(:datos="datosSlyder2")
 
     p.mb-5(data-aos="fade-down") Estas metas, serán analizadas permanentemente por medio del sistema de seguimiento y monitoreo del plan, para tal efecto, se generarán orientaciones y retroalimentación a los territorios, con el ánimo de fortalecer los procesos de toma de decisiones informadas. Paralelamente el #[b Ministerio de Salud y Protección Social], de forma complementaria desarrollará procesos de evaluación, con el fin de permitir enriquecer los procesos de ejecución y/o reorientar de manera oportuna las estrategias para el logro de los fines establecidos. 
     
@@ -482,7 +482,7 @@
           .col-10.col-md-4.col-lg-3
             img.p-lg-3(src='@/assets/curso/temas/tema1/tema1-31.png', alt='')
           .col-12.col-md-8.col-lg-9
-            p.mb-0 Se debe recordar que la salud pública “es un campo de acción estatal y social de gran relevancia para la garantía del derecho a la salud y por lo tanto sus actuaciones sectoriales y conjuntas con otros actores y sectores deben dar cuenta de lo exigible en el marco de derechos bajo el reconocimiento de su interdependencia e indivisibilidad” (Plan Decenal de Salud Pública 2022-2031).
+            p.mb-0 Se debe recordar que la salud pública “es un campo de acción estatal y social de gran relevancia para la garantía del derecho a la salud y, por lo tanto, sus actuaciones sectoriales y conjuntas con otros actores y sectores deben dar cuenta de lo exigible en el marco de derechos bajo el reconocimiento de su interdependencia e indivisibilidad” (Plan Decenal de Salud Pública 2022-2031).
     
 
     Separador
@@ -502,7 +502,7 @@
           .col-md-8
             p Son acciones que impone las autoridades de policía a toda persona que incurra en comportamientos contrarios a la convivencia o el incumplimiento de los deberes específicos de convivencia. Dichas medidas correctivas tienen por objeto disuadir, prevenir, superar, resarcir, procurar, educar, proteger o restablecer la convivencia. 
             p Igualmente, no tienen carácter sancionatorio. Por tal razón, deberán aplicarse al comportamiento contrario a la convivencia las medidas correctivas establecidas en este código y demás normas que regulen la materia. 
-            p Además, cuando las autoridades de policía impongan una medida correctiva deben informar a la Policía Nacional para que proceda a su registro en una base de datos de orden nacional y acceso público.
+            p Además, cuando las autoridades de policía impongan una medida correctiva, deben informar a la Policía Nacional para que proceda a su registro en una base de datos de orden nacional y acceso público.
       .py-4.py-md-5(titulo="¿Qué medidas correctivas se encuentran en el código de policía?" :icono="require('@/assets/curso/temas/tema1/tema1-i2.svg')")
         .row
           .col-md-4.mb-4.mb-md-0
@@ -701,7 +701,7 @@ export default {
       {
         titulo: 'Artículo 113',
         texto:
-          'Establece tres ramas del poder público la legislativa, la ejecutiva, y la judicial. Además de los órganos que las integran existen otros, autónomos e independientes, para el cumplimiento de las demás funciones del Estado. Los diferentes órganos del Estado tienen funciones separadas, pero colaboran armónicamente para la realización de sus fines.',
+          'Establece tres ramas del poder público, la legislativa, la ejecutiva, y la judicial. Además de los órganos que las integran, existen otros, autónomos e independientes, para el cumplimiento de las demás funciones del Estado. Los diferentes órganos del Estado tienen funciones separadas, pero colaboran armónicamente para la realización de sus fines.',
         imagen: require('@/assets/curso/temas/tema1/tema1-5.png'),
       },
       {
@@ -745,7 +745,7 @@ export default {
       {
         titulo: 'Categoría: Cambio climático',
         texto:
-          'Meta: a 2031 se formularán acciones de adaptación en promoción de la salud y prevención de las enfermedades que aporten a reducir los casos de enfermedades sensibles al clima en el 100 % de las Entidades territoriales en el sector de salud, del nivel departamental, distrital y municipal en la categoría 1,2 y 3, estarán implementadas en un 40 %.',
+          'Meta: a 2031 se formularán acciones de adaptación en promoción de la salud y prevención de las enfermedades que aporten a reducir los casos de enfermedades sensibles al clima en el 100 % de las Entidades territoriales en el sector de salud, del nivel departamental, distrital y municipal en la categoría 1, 2 y 3, estarán implementadas en un 40 %.',
         imagen: require('@/assets/curso/temas/tema1/tema1-29.png'),
       },
       {

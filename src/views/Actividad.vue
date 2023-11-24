@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Fortaleciendo conceptos sobre normatividad en la gestión ambiental  
-        p.mb-4 #[b Objetivo:] reforzar los elementos conceptuales relacionados con la gestión de la salud ambiental, seguridad sanitaria, gestión en salud pública, gestión del riesgo tomando como base la normativa y las políticas establecidas. 
+        p.mb-4 #[b Objetivo:] reforzar los elementos conceptuales relacionados con la gestión de la salud ambiental, seguridad sanitaria, gestión en salud pública, gestión del riesgo, tomando como base la normativa y las políticas establecidas. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
