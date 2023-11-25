@@ -210,7 +210,7 @@
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.4 Guías e instrumentos para la inspección, vigilancia y control sanitario
 
-    p.mb-4(data-aos="fade-down") Entre las guías e instrumentos utilizados por la autoridad sanitaria para realizar las acciones de inspección, vigilancia y control sanitario a los objetos de inspección, vigilancia y control de interés para salud ambiental se encuentra el acta. En el siguiente recurso se podrá conocer la definición de actas y sus tipos:
+    p.mb-4(data-aos="fade-down") Entre las guías e instrumentos utilizados por la autoridad sanitaria para realizar las acciones de inspección, vigilancia y control sanitario a los objetos de inspección, vigilancia y control de interés para salud ambiental, se encuentra el acta. En el siguiente recurso se podrá conocer la definición de actas y sus tipos:
 
     h4.color-boton(data-aos="fade-right") ¿Qué es un acta?
     p.mb-4(data-aos="fade-down") Instrumento que permite consolidar la información frente a las acciones de inspección, vigilancia y control sanitario, en concordancia con las normas vigentes, dicha acta se diligencia en el momento de efectuar la visita sanitaria.
